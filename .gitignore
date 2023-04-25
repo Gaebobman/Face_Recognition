@@ -1,3 +1,6 @@
+# Igronore Sub_data folder
+data/sub_data
+
 # Created by https://www.toptal.com/developers/gitignore/api/windows,jupyternotebooks,python,opencv,linux,pycharm
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,jupyternotebooks,python,opencv,linux,pycharm
 
