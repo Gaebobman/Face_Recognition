@@ -7,6 +7,7 @@ This project demonstrates how to detect faces using OpenCV and Haar Cascade Algo
 
 -   Python 3.x
 -   OpenCV
+-   face_recognition
 -   Haar Cascade XML file
 -   CSI Camera or other camera
 
@@ -19,7 +20,14 @@ This project demonstrates how to detect faces using OpenCV and Haar Cascade Algo
 2.  Download the Haar Cascade XML file from [OpenCV GitHub repository](https://github.com/opencv/opencv/tree/master/data/haarcascades).
     
 3.  Clone or download the project repository to your local machine.
-    
+
+4. Install the face_recognition library by running the following command in the terminal:
+
+pip install face_recognition
+
+Note: face_recognition requires NumPy, dlib, and Click to be installed as well. If you have any issues with installation, refer to the official installation guide.
+
+This installation guide assumes that you already have Python and pip installed on your machine. If not, you will need to install them first before proceeding with the installation of OpenCV and face_recognition.    
 
 ### Usage
 
@@ -28,16 +36,7 @@ This project demonstrates how to detect faces using OpenCV and Haar Cascade Algo
 2.  Run the `main.py` file from the project directory in the terminal:
     
     `python main.py` 
-    
-3.  Choose the `1: Register` option to register a new user.
-    
-4.  Enter the user's name when prompted.
-    
-5.  Capture the user's image using the camera by pressing the 'c' key.
-    
-6.  If the capture is successful, the detected faces will be highlighted with a grid and numbered. Choose the grid number of the desired face to extract.
-    
-7.  Once the grid number is chosen, the face will be extracted, converted to grayscale, and saved to the `data/sub_data` directory with the user's name as the filename.
+
     
 
 ### Credits
@@ -45,6 +44,4 @@ This project demonstrates how to detect faces using OpenCV and Haar Cascade Algo
 This project was inspired by the following sources:
 
 -   [OpenCV documentation](https://opencv.org/)
--   [076923's blog](https://076923.github.io/posts/Python-opencv-2/)
--   [Scribbling Anything's blog](https://scribblinganything.tistory.com/472)
--   [ai0's blog](https://ai0.kr/m/41)
+-   [천동이] (https://blog.naver.com/chandong83/221695462391)
